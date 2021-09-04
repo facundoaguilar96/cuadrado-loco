@@ -26,8 +26,8 @@ function main() {
     } else if (event.code == "ArrowDown") {
       newHeight--;
       newWidth--;
-    } else if (event.code == "Backspace") {
-      body.style.backgroundColor = "#000000";
+    } else if (event.code == "KeyB") {
+      el.style.backgroundColor = "#0000ff";
     } else if (event.code == "KeyR") {
       el.style.backgroundColor = "#ff0000";
     } else if (event.code == "KeyG") {
@@ -41,6 +41,8 @@ function main() {
     } else if (event.code == "KeyW") {
       el.style.backgroundColor = "#ffffff";
       body.style.backgroundColor = "#000000";
+    } else if (event.code == "Backspace") {
+      body.style.backgroundColor = "#ffffff";
     }
 
     el.style.width = newWidth + "px";
