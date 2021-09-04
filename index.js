@@ -43,6 +43,7 @@ function main() {
       body.style.backgroundColor = "#000000";
     } else if (event.code == "Backspace") {
       body.style.backgroundColor = "#ffffff";
+      el.style.backgroundColor = "#000000";
     }
 
     el.style.width = newWidth + "px";
